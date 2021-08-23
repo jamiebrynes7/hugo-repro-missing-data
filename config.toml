@@ -4,25 +4,26 @@ title = 'My New Hugo Site'
 languageCode = "en"
 defaultContentLanguage = "en"
 
+disableKinds = ['taxonomy','term','sitemap']
 
 [languages]
   [languages.en]
-    title = "Repro"
-    languageName = "English"
     contentDir = "content/en"
+    languageName = "English"
+    title = "Repro"
     weight = 1
 
   [languages.zh_CN]
+    contentDir = "content/zh_CN"
+    languageName = "简体中文"
     title = "Repro"
     weight = 2
-    languageName = "简体中文"
-    contentDir = "content/zh_CN"
 
 [outputFormats]
   [outputFormats.metadata]
     baseName = "metadata"
-    mediaType = "text/html"
     isPlainText = true
+    mediaType = "text/html"
     notAlternative = true
 
 [outputs]

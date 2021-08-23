@@ -3,7 +3,7 @@
 {{ range .Site.Menus.main }}
   {{ $p := .Page }}
   {{ range $p.Translations}}
-    <li>{{ .Title }}, {{ .Summary }}</li>
+    <li>{{ .Title }}, {{ .Description }}, {{ .Summary }}</li>
   {{ end }}
 {{ end }}
 </ul>

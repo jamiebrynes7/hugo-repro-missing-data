@@ -1,5 +1,6 @@
 ---
 title: Title (en)
+description: Description (en)
 summary: Summary (en)
 
 menu:
