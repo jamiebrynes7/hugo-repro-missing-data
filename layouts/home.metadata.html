@@ -1,0 +1,9 @@
+<h2>Translations</h2>
+<ul>
+{{ range .Site.Menus.main }}
+  {{ $p := .Page }}
+  {{ range $p.Translations}}
+    <li>{{ .Title }}, {{ .Summary }}</li>
+  {{ end }}
+{{ end }}
+</ul>
